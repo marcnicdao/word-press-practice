@@ -64,3 +64,18 @@ Stack trace:
 [03-Aug-2020 05:42:10 UTC] PHP   2. require() C:\Users\Marc\Local Sites\fictional-university\app\public\index.php:17
 [03-Aug-2020 05:42:10 UTC] PHP   3. require_once() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-blog-header.php:19
 [03-Aug-2020 05:42:10 UTC] PHP   4. include() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:106
+[03-Aug-2020 06:04:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post-template.php on line 317
+[03-Aug-2020 06:04:13 UTC] PHP Stack trace:
+[03-Aug-2020 06:04:13 UTC] PHP   1. {main}() C:\Users\Marc\Local Sites\fictional-university\app\public\index.php:0
+[03-Aug-2020 06:04:13 UTC] PHP   2. require() C:\Users\Marc\Local Sites\fictional-university\app\public\index.php:17
+[03-Aug-2020 06:04:13 UTC] PHP   3. require_once() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[03-Aug-2020 06:04:13 UTC] PHP   4. include() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:106
+[03-Aug-2020 06:04:13 UTC] PHP   5. the_content() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:2
+[03-Aug-2020 06:04:13 UTC] PHP   6. get_the_content() C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post-template.php:244
+[03-Aug-2020 06:05:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 8
+[03-Aug-2020 18:20:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
+[03-Aug-2020 18:35:54 UTC] PHP Parse error:  syntax error, unexpected 'wp_list_pages' (T_STRING), expecting ',' or ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 37
+[03-Aug-2020 18:41:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 33
+[03-Aug-2020 18:41:41 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 34
+[03-Aug-2020 18:41:43 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 34
+[03-Aug-2020 18:42:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 33
