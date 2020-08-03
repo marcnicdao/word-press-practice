@@ -2,3 +2,25 @@
 [02-Aug-2020 04:40:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
 [02-Aug-2020 05:02:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
 [02-Aug-2020 05:02:44 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 8
+[03-Aug-2020 01:51:22 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 8
+[03-Aug-2020 01:51:33 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 8
+[03-Aug-2020 01:54:26 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 17
+[03-Aug-2020 01:54:59 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 17
+[03-Aug-2020 01:55:00 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 17
+[03-Aug-2020 01:55:18 UTC] PHP Parse error:  syntax error, unexpected 'the_content' (T_STRING), expecting ',' or ';' in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 18
+[03-Aug-2020 02:48:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_page(), 0 passed in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 11 and at least 1 expected in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post.php:4914
+Stack trace:
+#0 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(11): get_page()
+#1 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Marc\\L...')
+#2 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Marc\\L...')
+#3 C:\Users\Marc\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Marc\\L...')
+#4 {main}
+  thrown in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post.php on line 4914
+[03-Aug-2020 02:48:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_page(), 0 passed in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 11 and at least 1 expected in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post.php:4914
+Stack trace:
+#0 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(11): get_page()
+#1 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Marc\\L...')
+#2 C:\Users\Marc\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Marc\\L...')
+#3 C:\Users\Marc\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Marc\\L...')
+#4 {main}
+  thrown in C:\Users\Marc\Local Sites\fictional-university\app\public\wp-includes\post.php on line 4914
