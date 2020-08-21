@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
 </head>
 
@@ -18,11 +18,13 @@
       <div class="site-header__menu group">
         <nav class="main-navigation">
 
-          <?php
-            wp_nav_menu(array(
-              'theme_location' => 'headerMenuLocation'
-            ));
-          ?>
+          <ul>
+            <li <?php if (is_page('about-us') or wp_get_post_parent_id(0) == 29) echo 'class="current-menu-item"' ?>><a href="#">About Us</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Campuses</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
 
         </nav>
         <div class="site-header__util">
@@ -33,4 +35,4 @@
       </div>
     </div>
   </header>
-<!DOCTYPE html>
+  <!DOCTYPE html>
